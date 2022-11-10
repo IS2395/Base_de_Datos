@@ -92,3 +92,8 @@ https://www.db-fiddle.com/f/umEMiHGa4VmwR7Mvpf8M6Z/0
     INSERT INTO auto_lib VALUES ('aut3',01);
     INSERT INTO auto_lib VALUES ('aut1',02);
     INSERT INTO auto_lib VALUES ('aut4',03);
+    
+# Base de datos editorial
+
+https://www.db-fiddle.com/f/2VvT9JW4mFuUHwpAJF3QzH/0
+    
