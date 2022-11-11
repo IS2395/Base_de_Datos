@@ -8,4 +8,7 @@ https://www.db-fiddle.com/f/umEMiHGa4VmwR7Mvpf8M6Z/0
 
 
 https://www.db-fiddle.com/f/2VvT9JW4mFuUHwpAJF3QzH/1  -  Estructura completa
-    
+
+# Base de datos tienda
+
+https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/1 - Con Querys
