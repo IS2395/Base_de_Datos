@@ -95,5 +95,5 @@ https://www.db-fiddle.com/f/umEMiHGa4VmwR7Mvpf8M6Z/0
     
 # Base de datos editorial
 
-https://www.db-fiddle.com/f/2VvT9JW4mFuUHwpAJF3QzH/0
+https://www.db-fiddle.com/f/2VvT9JW4mFuUHwpAJF3QzH/1  -  Estructura completa
     
