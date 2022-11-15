@@ -12,3 +12,5 @@ https://www.db-fiddle.com/f/2VvT9JW4mFuUHwpAJF3QzH/1  -  Estructura completa
 # Base de datos tienda
 
 https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/1 - Con Querys
+
+https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/2 - Querys de group by y order by
