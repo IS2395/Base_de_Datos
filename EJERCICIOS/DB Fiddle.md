@@ -24,3 +24,14 @@ https://www.db-fiddle.com/f/buSdkkAbV3v8e88PhQrnuP/0 - Repaso
 # Ejercicio moodle Base de datos tienda informatica
 
 https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0
+
+USE tienda;
+
+/*Numero total de productos en la tabla productos*/
+SELECT COUNT (codigo_producto)
+FROM producto;
+
+/*Numero total de productos de cada fabricante*/
+SELECT nombre_fabrica, COUNT(nombre_producto)
+FROM producto
+LEFT JOIN fabricante ON fabricante.codigo_fabrica=producto.codigo_fabrica1;
