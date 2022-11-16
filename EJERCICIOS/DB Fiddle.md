@@ -20,3 +20,7 @@ https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/3 - Con IVA
 https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/4 - Con ventas
 
 https://www.db-fiddle.com/f/buSdkkAbV3v8e88PhQrnuP/0 - Repaso
+
+# Ejercicio moodle Base de datos tienda informatica
+
+https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0
