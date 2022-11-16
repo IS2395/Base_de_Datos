@@ -16,3 +16,5 @@ https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/1 - Con Querys
 https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/2 - Querys de group by y order by
 
 https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/3 - Con IVA
+
+https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/4 - Con ventas
