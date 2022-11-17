@@ -21,6 +21,8 @@ https://www.db-fiddle.com/f/tfg8VkdD8MqnHksHivtg9P/4 - Con ventas
 
 https://www.db-fiddle.com/f/buSdkkAbV3v8e88PhQrnuP/0 - Repaso
 
+https://www.db-fiddle.com/f/igVHQyNSzTPtzk51bJnj2X/0 - Triggers
+
 # Ejercicio moodle Base de datos tienda informatica
 
 https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0
@@ -35,3 +37,5 @@ USE tienda;
         SELECT nombre_fabrica, COUNT(nombre_producto)
         FROM producto
         LEFT JOIN fabricante ON fabricante.codigo_fabrica=producto.codigo_fabrica1;
+        
+
