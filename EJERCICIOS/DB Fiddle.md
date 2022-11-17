@@ -23,6 +23,8 @@ https://www.db-fiddle.com/f/buSdkkAbV3v8e88PhQrnuP/0 - Repaso
 
 https://www.db-fiddle.com/f/igVHQyNSzTPtzk51bJnj2X/0 - Triggers
 
+https://www.db-fiddle.com/f/qPV662LxGenZ3HKCJCJPS5/0 - Consultas
+
 # Ejercicio moodle Base de datos tienda informatica
 
 https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0
