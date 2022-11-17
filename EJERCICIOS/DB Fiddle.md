@@ -29,7 +29,7 @@ https://www.db-fiddle.com/f/qPV662LxGenZ3HKCJCJPS5/0 - Consultas
 
 https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0
 
-USE tienda;
+        USE tienda;
 
         /*Numero total de productos en la tabla productos*/
         SELECT COUNT (codigo_producto)
