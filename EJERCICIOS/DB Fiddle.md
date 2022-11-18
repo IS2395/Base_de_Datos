@@ -27,8 +27,10 @@ https://www.db-fiddle.com/f/qPV662LxGenZ3HKCJCJPS5/0 - Consultas
 
 # Ejercicio moodle Base de datos tienda informatica
 
-https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0
+https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0 - 6. Creación de una Base de Datos
 
-https://www.db-fiddle.com/f/srCTCQ9EgwxtuW9nfpqkAf/0 - Avance
+https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/1 - 7. Funciones en SQL
+
+
 
 https://www.db-fiddle.com/f/rzWRTWr8qNfdijHVzkME4y/0 - Completo
