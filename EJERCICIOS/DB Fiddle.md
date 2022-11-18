@@ -31,6 +31,6 @@ https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0 - 6. Creación de una Base 
 
 https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/1 - 7. Funciones en SQL
 
-
+https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/2 - 9. Operaciones en una base de datos
 
 https://www.db-fiddle.com/f/rzWRTWr8qNfdijHVzkME4y/0 - Completo
