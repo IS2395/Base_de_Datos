@@ -25,11 +25,13 @@ https://www.db-fiddle.com/f/igVHQyNSzTPtzk51bJnj2X/0 - Triggers
 
 https://www.db-fiddle.com/f/qPV662LxGenZ3HKCJCJPS5/0 - Consultas
 
-# Ejercicio moodle Base de datos tienda informatica
+# Ejercicios moodle
 
 https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/0 - 6. Creación de una Base de Datos
 
 https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/1 - 7. Funciones en SQL
+
+https://www.db-fiddle.com/f/wXqkFmKdUE6FN4qVGAnGeb/0 - 8. Disparadores
 
 https://www.db-fiddle.com/f/4wTCZtj8UY48Lai8En1AEk/2 - 9. Operaciones en una base de datos
 
