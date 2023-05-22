@@ -34,6 +34,41 @@ https://www.db-fiddle.com/f/igVHQyNSzTPtzk51bJnj2X/0 - Triggers
     ) AS producto2 ON producto.nom_prod = producto2.nom_prod
     SET producto.clave_prod = producto2.clave_prod;
 
+    CREATE DATABASE tienda;
+
+    USE tienda;
+
+    CREATE TABLE producto(
+    clave_prod int UNSIGNED ,
+    nom_prod varchar(20)  PRIMARY KEY,
+    precio float NOT NULL ,
+    marca VARCHAR(100)
+    );
+
+    DELIMITER //
+    CREATE TRIGGER trigger_check_nota_before_insert AFTER INSERT ON producto
+    FOR EACH ROW BEGIN
+        IF(NEW.clave_prod=NULL)
+           THEN
+           UPDATE producto 
+           JOIN (
+             SELECT nom_prod, @n := @n + 1 AS clave_prod
+             FROM producto
+             CROSS JOIN (SELECT @n := (SELECT MAX(clave_prod) FROM producto)) AS v
+             WHERE clave_prod IS NULL
+             ORDER BY clave_prod
+           ) AS producto2 ON producto.nom_prod = producto2.nom_prod
+           SET producto.clave_prod = producto2.clave_prod;
+        END IF;
+        END//
+    DELIMITER ;
+
+
+    INSERT INTO producto VALUES (1,'1CAFÉ KG',105,'Nestle');
+    INSERT INTO producto VALUES (NULL,'2CAFÉ KG',10,'Nestle');
+    INSERT INTO producto VALUES (NULL,'3CAFÉ KG',1,'Nestle');
+    INSERT INTO producto VALUES (NULL,'4CAFÉ KG',1405,'Nestle');
+
 https://www.db-fiddle.com/f/qPV662LxGenZ3HKCJCJPS5/0 - Consultas
 
 # Ejercicios moodle
