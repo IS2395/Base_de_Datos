@@ -23,16 +23,16 @@ https://www.db-fiddle.com/f/buSdkkAbV3v8e88PhQrnuP/0 - Repaso
 
 https://www.db-fiddle.com/f/igVHQyNSzTPtzk51bJnj2X/0 - Triggers
 
-        Incrementar columna
-        UPDATE producto AS i1
-        JOIN (
-          SELECT clave_prod, @n := @n + 1 AS precio
-          FROM producto
-          CROSS JOIN (SELECT @n := (SELECT MAX(precio) FROM producto)) AS v
-          WHERE precio IS NULL
-          ORDER BY clave_prod
-        ) AS i2 ON i1.clave_prod = i2.clave_prod
-        SET i1.precio = i2.precio;
+    Incrementar columna
+    UPDATE producto
+    JOIN (
+      SELECT nom_prod, @n := @n + 1 AS clave_prod
+      FROM producto
+      CROSS JOIN (SELECT @n := (SELECT MAX(clave_prod) FROM producto)) AS v
+      WHERE clave_prod IS NULL
+      ORDER BY clave_prod
+    ) AS producto2 ON producto.nom_prod = producto2.nom_prod
+    SET producto.clave_prod = producto2.clave_prod;
 
 https://www.db-fiddle.com/f/qPV662LxGenZ3HKCJCJPS5/0 - Consultas
 
